@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: linear-gradient(120deg, #0f2027, #203a43, #2c5364);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    width: 400px;
+    backdrop-filter: blur(10px);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .generator .output-box {
+    display: flex;
+    margin-bottom: 20px;
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  #passwordDisplay {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background: transparent;
+    color: #fff;
+  }
+  
+  #copyBtn {
+    background: #1f4037;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+  }
+  
+  #generateBtn {
+    width: 100%;
+    padding: 12px;
+    background: #00c6ff;
+    border: none;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  #generateBtn:hover {
+    background: #0072ff;
+  }
+  
+  .strength {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  
+  .strength span {
+    font-weight: bold;
+    color: #00ffab;
+  }
+  
